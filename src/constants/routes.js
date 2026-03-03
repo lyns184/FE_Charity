@@ -1,0 +1,15 @@
+export const ROUTES = {
+  HOME: "/",
+  LOGIN: "/login",
+  REGISTER: "/register",
+  CAMPAIGN_DETAIL: "/campaigns/:id",
+  CREATE_CAMPAIGN: "/campaigns/create",
+  ORGANIZERS: "/organizers",
+  MY_CAMPAIGNS: "/my-campaigns",
+  DISBURSEMENT_REQUEST: "/my-campaigns/:id/disburse",
+  PROFILE: "/profile",
+  ADMIN_DASHBOARD: "/admin/dashboard",
+  ADMIN_KYC: "/admin/kyc",
+  ADMIN_CAMPAIGNS: "/admin/campaigns",
+  ADMIN_DISBURSEMENTS: "/admin/disbursements",
+}

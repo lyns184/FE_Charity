@@ -1,0 +1,18 @@
+import { Link } from "react-router-dom"
+import { Button } from "@/components/ui/button"
+import { FileQuestion } from "lucide-react"
+
+export default function NotFound() {
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center gap-4 bg-background text-foreground p-4">
+      <FileQuestion className="h-20 w-20 text-muted-foreground" />
+      <h1 className="text-4xl font-bold">404</h1>
+      <p className="text-muted-foreground text-lg text-center">
+        Trang bạn tìm không tồn tại
+      </p>
+      <Button asChild>
+        <Link to="/">Về trang chủ</Link>
+      </Button>
+    </div>
+  )
+}
